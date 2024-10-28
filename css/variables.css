@@ -4,5 +4,6 @@
     --header-color: #222222;
     --text-color: white;
     --font-family: Arial, sans-serif;
-    --max-width: 1440px;
+    --max-width: 1170px;
+    --min-width: 500px;
 }
