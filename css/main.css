@@ -39,3 +39,53 @@ main {
 .hero button:hover {
     background-color: #286090;
 }
+
+.collaboration {
+    text-align: center;
+    padding: 40px 20px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+.collaboration h2 {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.collaboration span {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: lighter;
+    color: #777777;
+    font-size: 1.4rem;
+}
+
+.collaboration p {
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: lighter;
+    color: #777777;
+    font-size: 1rem;
+}
+
+.content-blocks {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.content-block {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-block img {
+    width: 100%;
+    height: 100%;
+}
