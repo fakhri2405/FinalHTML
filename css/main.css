@@ -168,3 +168,15 @@ main {
 .feature button:hover {
     background-color: lightgrey;
 }
+
+@media (max-width: 800px) {
+    .content-blocks, .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-block, .feature {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
