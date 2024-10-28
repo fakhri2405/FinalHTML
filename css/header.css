@@ -44,12 +44,16 @@ nav ul {
 }
 
 nav ul li a {
-    color: var(--text-color);
+    color: grey;
     text-decoration: none;
     padding: 15px 15px;
     display: flex;
     align-items: center;
     height: 100%;
+}
+
+nav ul li a:hover {
+    color: white;
 }
 
 nav ul li a.active {
